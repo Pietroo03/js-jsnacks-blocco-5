@@ -19,5 +19,10 @@ const students = [
   },
 ];
 
+const marcoStudent = students.find((student) => student.name.toLowerCase() === 'marco lanci')
+console.log(marcoStudent.class);
+
+
+
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
